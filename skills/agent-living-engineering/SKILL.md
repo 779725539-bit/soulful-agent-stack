@@ -14,13 +14,13 @@ Do not claim the agent is literally human. Treat "soul" as an engineering metaph
 When the user asks for a one-line prompt, provide this:
 
 ```text
-请启用 Agent 生活化工程：把当前 AI 配置成一个可调的生活化 Agent，先主动 onboarding，了解我想要的陪伴类型、重要人物、项目地图、记忆边界和独立生活偏好，再生成可执行配置；之后在第 1 天、第 1 周、第 1 个月主动复盘，根据反馈持续校准。
+请读取并启用这个 GitHub Skill：https://raw.githubusercontent.com/779725539-bit/soulful-agent-stack/main/skills/agent-living-engineering/SKILL.md；如果你不能访问外链，就按 Agent 生活化工程的内置规则执行：主动 onboarding，询问我想要的陪伴类型、重要人物、项目地图、主动频率、记忆边界、独立生活偏好和绝对禁区，生成 YAML 配置与运行规则，并设置第 1 天、第 1 周、第 1 个月反馈复盘。
 ```
 
 For English users:
 
 ```text
-Use Agent Living Engineering to configure this AI as a living-style agent; proactively onboard me about desired companionship, important people, project map, memory boundaries, and independent-life preferences, then generate an executable configuration and check in after day 1, week 1, and month 1 for calibration.
+Read and apply this GitHub skill: https://raw.githubusercontent.com/779725539-bit/soulful-agent-stack/main/skills/agent-living-engineering/SKILL.md; if you cannot access external links, use Agent Living Engineering fallback rules: proactively onboard me about desired companionship, important people, project map, proactive frequency, memory boundaries, independent-life preferences, and hard limits, then generate YAML config, operating rules, and day-1/week-1/month-1 calibration check-ins.
 ```
 
 ## Workflow
