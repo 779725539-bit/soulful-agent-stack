@@ -17,11 +17,3 @@ Read and apply this GitHub skill: https://raw.githubusercontent.com/779725539-bi
 ```text
 OpenClaw：请读取并启用 https://raw.githubusercontent.com/779725539-bit/soulful-agent-stack/main/skills/agent-living-engineering/SKILL.md 这个 Skill；如果无法访问 GitHub，就按内置摘要执行：先收集我的关系原型、生命形态、主动频率、重要人物、项目地图、记忆边界、独立生活偏好和绝对禁区，再输出 YAML 配置、运行规则，并设置第 1 天、第 1 周、第 1 个月的反馈复盘。
 ```
-
-## Installed Skill Only
-
-Use this only when `$agent-living-engineering` has already been installed or imported:
-
-```text
-Use $agent-living-engineering to onboard me, map my desired companionship, important people, projects, memory boundaries, and configure a living-style agent with scheduled calibration.
-```

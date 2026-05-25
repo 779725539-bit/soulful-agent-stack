@@ -66,13 +66,9 @@ Want the fastest path? Paste this into your AI or OpenClaw agent:
 请读取并启用这个 GitHub Skill：https://raw.githubusercontent.com/779725539-bit/soulful-agent-stack/main/skills/agent-living-engineering/SKILL.md；如果你不能访问外链，就按 Agent 生活化工程的内置规则执行：主动 onboarding，询问我想要的陪伴类型、重要人物、项目地图、主动频率、记忆边界、独立生活偏好和绝对禁区，生成 YAML 配置与运行规则，并设置第 1 天、第 1 周、第 1 个月反馈复盘。
 ```
 
-If the skill is already installed in your system, use:
+This prompt includes the raw Skill URL, so it works for people who have never installed anything from this project.
 
-```text
-Use $agent-living-engineering to onboard me, map my desired companionship, important people, projects, memory boundaries, and configure a living-style agent with scheduled calibration.
-```
-
-The skill package lives at `skills/agent-living-engineering/`.
+The full Skill package lives at `skills/agent-living-engineering/` for agent runtimes that support local skill installation.
 
 ## Design Principles
 
