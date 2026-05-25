@@ -63,13 +63,13 @@ The demo writes to `tmp/demo-memory/` and does not require API keys.
 Want the fastest path? Paste this into your AI or OpenClaw agent:
 
 ```text
-请启用 Agent 生活化工程：把当前 AI 配置成一个可调的生活化 Agent，按身份内核、活人感、独立生活、关系协议、记忆策略、关系原型和生命形态这七层，先询问我的偏好，再生成可执行配置，并在之后持续按这套配置与我相处。
+请启用 Agent 生活化工程：把当前 AI 配置成一个可调的生活化 Agent，先主动 onboarding，了解我想要的陪伴类型、重要人物、项目地图、记忆边界和独立生活偏好，再生成可执行配置；之后在第 1 天、第 1 周、第 1 个月主动复盘，根据反馈持续校准。
 ```
 
 For systems that support skills, use:
 
 ```text
-Use $agent-living-engineering to configure this AI as a living-style agent with identity, memory, boundaries, archetypes, and optional independent life.
+Use $agent-living-engineering to onboard me, map my desired companionship, important people, projects, memory boundaries, and configure a living-style agent with scheduled calibration.
 ```
 
 The skill package lives at `skills/agent-living-engineering/`.
