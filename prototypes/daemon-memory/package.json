@@ -1,0 +1,17 @@
+{
+  "name": "daemon-memory",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Memory enhancement prototype for host agent runtimes.",
+  "scripts": {
+    "init": "node src/daemon-memory.mjs init",
+    "demo": "node src/daemon-memory.mjs demo",
+    "ingest": "node src/daemon-memory.mjs ingest",
+    "retrieve": "node src/daemon-memory.mjs retrieve",
+    "maintain": "node src/daemon-memory.mjs maintain"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
