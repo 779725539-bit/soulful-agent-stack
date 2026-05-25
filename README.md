@@ -58,6 +58,22 @@ npm run demo
 
 The demo writes to `tmp/demo-memory/` and does not require API keys.
 
+## Copy-Paste Prompt
+
+Want the fastest path? Paste this into your AI or OpenClaw agent:
+
+```text
+请启用 Agent 生活化工程：把当前 AI 配置成一个可调的生活化 Agent，按身份内核、活人感、独立生活、关系协议、记忆策略、关系原型和生命形态这七层，先询问我的偏好，再生成可执行配置，并在之后持续按这套配置与我相处。
+```
+
+For systems that support skills, use:
+
+```text
+Use $agent-living-engineering to configure this AI as a living-style agent with identity, memory, boundaries, archetypes, and optional independent life.
+```
+
+The skill package lives at `skills/agent-living-engineering/`.
+
 ## Design Principles
 
 - Presence is not constant talking.
@@ -74,4 +90,3 @@ This is an early public skeleton. The current concrete prototype is `prototypes/
 ## Safety
 
 Do not commit secrets, private logs, health records, or unreviewed transcripts. Public examples must use placeholders or fictional data.
-

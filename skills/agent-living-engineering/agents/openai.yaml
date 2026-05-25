@@ -1,0 +1,7 @@
+interface:
+  display_name: "Agent Living Engineering"
+  short_description: "Configure living-style AI agents"
+  default_prompt: "Use $agent-living-engineering to configure this AI as a living-style agent with identity, memory, boundaries, archetypes, and optional independent life."
+policy:
+  allow_implicit_invocation: true
+
