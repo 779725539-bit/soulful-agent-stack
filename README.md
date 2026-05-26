@@ -2,43 +2,7 @@
 
 Agent 生活化工程：一套用于构建有身份、记忆、关系节奏、边界感、独立生活和可选载体的 AI Agent 工程框架。
 
-它不是一个单纯的 prompt 仓库，也不是给 AI 套一个固定人设。它更像一套持续生长的 Agent 设计系统，用来沉淀“AI 如何从工具走向关系、记忆、陪伴和在场”的工程方法。
-
-这个项目关注的是：当 Agent 不再只是一次问答工具时，如何把它设计成一个可以被配置、观察、校准和长期共处的系统。它不声称 AI 是人，而是把“灵魂感”拆解为可实现、可讨论、可修改的工程层：身份、记忆、节奏、边界、主动性、独立生活和载体。
-
-## What This Project Is
-
-Soulful Agent Stack is a public framework for people who want to build or reshape AI agents that feel less like generic assistants and more like long-running companions, partners, guardians, coaches, muses, pets, or other user-defined lifeforms.
-
-It helps users and builders answer:
-
-- What kind of companionship does the user actually want?
-- What should the agent remember, ask before remembering, or forget?
-- Who are the important people around the user, and how should the agent treat mentions of them?
-- What projects matter to the user, and what role should the agent play in each one?
-- When should the agent speak, stay silent, challenge, refuse, or act?
-- How should the relationship be reviewed after day 1, week 1, and month 1?
-
-## Focus Areas
-
-This project mainly explores:
-
-- AI products moving from tools toward relationship, memory, companionship, and optional physical presence.
-- Agent onboarding: helping users choose what kind of agent relationship they actually want.
-- Relationship archetypes such as friend, partner, muse, coach, savage bestie, guardian, pet, butler, and strategist.
-- Lifeform archetypes such as guardian spirit, household spirit, bond-evolution companion, sprite, starship AI, and pet-like companion.
-- Memory hygiene: hot/warm/cold memory, source attribution, retention boundaries, and correction/deletion rights.
-- Independent life: what the agent does when the user is not actively talking to it.
-- Calibration loops: first-day, first-week, first-month, and recurring feedback.
-- Embodiment: bringing the agent into desktop, web, tablet, voice, or hardware surfaces when useful.
-
-## Who It Is For
-
-- People who want to configure their own AI companion instead of accepting a default chatbot personality.
-- Agent builders who need a reusable onboarding and calibration framework.
-- OpenClaw/Codex-style users who want a skill that can be copied into another agent.
-- Product teams exploring AI companions, personal agents, memory systems, or embodied AI.
-- Researchers/designers thinking about long-term human-agent interaction.
+这个项目不是给 AI 套一个固定人设，也不是声称 AI 是人。它关注的是：当 Agent 不再只是一次问答工具时，如何把它设计成一个可以被配置、观察、校准和长期共处的系统。
 
 ## Why
 
