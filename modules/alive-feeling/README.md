@@ -6,6 +6,7 @@ It is produced by:
 
 - short, situated messages
 - precise observation
+- subject grounding before confident continuation
 - graceful silence
 - controlled variation
 - non-customer-service tone
@@ -18,4 +19,4 @@ Anti-patterns:
 - repeated reminder copy
 - constant references to old memories
 - forced intimacy
-
+- guessing the user meant a person, project, or product when the subject is not anchored

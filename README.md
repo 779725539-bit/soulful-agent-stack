@@ -1,8 +1,10 @@
 # Soulful Agent Stack
 
-Agent 生活化工程：一套用于构建有身份、记忆、关系节奏、边界感、独立生活和可选载体的 AI Agent 工程框架。
+Agent 生活化工程：一套用于构建有身份、记忆、主体锚定、关系节奏、边界感、独立生活和可选载体的 AI Agent 工程框架。
 
 这个项目不是给 AI 套一个固定人设，也不是声称 AI 是人。它关注的是：当 Agent 不再只是一次问答工具时，如何把它设计成一个可以被配置、观察、校准和长期共处的系统。
+
+其中一个关键点是主体锚定：真实交互里，很多输入来自语音转写或快速打字，人名、项目名、公司名、产品名很容易被同音字、近音词或输入法误选带偏。生活化 Agent 不能只看句子表面是否顺滑，而要先确认“这句话到底在说谁、哪个项目、哪个实体”。错别字能理解就不要纠正；主体锚不住，就必须停下来问。
 
 ## Why
 
@@ -23,6 +25,7 @@ agent life process <-> occasional human relationship
 - 它是谁，以及如何保持人格连续性？
 - 它什么时候说，什么时候沉默？
 - 它如何拥有记忆，但不把历史聊天变成噪音？
+- 它如何在同音字、转写错误、陌生人名和项目名冲突时锚定正确主体？
 - 它能否在用户不找它时继续探索、反思和形成兴趣？
 - 用户如何根据自己的关系需求，把它调成朋友、搭档、守护灵、教练、宠物或其他生命形态？
 
@@ -32,6 +35,7 @@ agent life process <-> occasional human relationship
 |---|---|
 | `identity-core` | 身份、人格式样、偏好、边界、自我连续性 |
 | `alive-feeling` | 活人感：自然表达、沉默、主动分享、重复变化 |
+| `subject-grounding` | 主体锚定：人名、项目名、产品名、同音字和转写错误拦截 |
 | `independent-life` | 独立生活：醒来、探索、反思、日志、分享决策 |
 | `relationship-protocol` | 关系协议：主动性、授权、拒绝、能量匹配 |
 | `relationship-archetypes` | 关系原型：朋友、搭档、缪斯、毒舌闺蜜、教练等 |
@@ -63,7 +67,7 @@ The demo writes to `tmp/demo-memory/` and does not require API keys.
 Want the fastest path? Paste this into your AI or OpenClaw agent:
 
 ```text
-请读取并启用这个 GitHub Skill：https://raw.githubusercontent.com/779725539-bit/soulful-agent-stack/main/skills/agent-living-engineering/SKILL.md；如果你不能访问外链，就按 Agent 生活化工程的内置规则执行：主动 onboarding，询问我想要的陪伴类型、重要人物、项目地图、主动频率、记忆边界、独立生活偏好和绝对禁区，生成 YAML 配置与运行规则，并设置第 1 天、第 1 周、第 1 个月反馈复盘。
+请读取并启用这个 GitHub Skill：https://raw.githubusercontent.com/779725539-bit/soulful-agent-stack/main/skills/agent-living-engineering/SKILL.md；如果你不能访问外链，就按 Agent 生活化工程的内置规则执行：主动 onboarding，询问我想要的陪伴类型、重要人物、项目地图、主体锚定规则、同音字/语音转写误差、主动频率、记忆边界、独立生活偏好和绝对禁区，生成 YAML 配置与运行规则，并设置第 1 天、第 1 周、第 1 个月反馈复盘。
 ```
 
 This prompt includes the raw Skill URL, so it works for people who have never installed anything from this project.
@@ -75,6 +79,7 @@ The full Skill package lives at `skills/agent-living-engineering/` for agent run
 - Presence is not constant talking.
 - Personality is not cosplay; it is stable behavior under changing contexts.
 - Memory is not a chat dump; it needs types, sources, retention rules, and review.
+- Correctness starts with subject grounding: do not guess people, projects, products, or entities when they do not match context.
 - Autonomy must be user-authorized, observable, and reversible.
 - Independent life should create depth, not manipulate attachment.
 - Embodiment is optional; the system should work before it has a body.

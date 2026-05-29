@@ -8,6 +8,9 @@ identity:
 alive_feeling:
   proactive_style: moderate
   observation_frequency: medium
+subject_grounding:
+  ask_when_subject_not_anchored: true
+  preserve_aliases_homophones_and_transcription_errors: true
 relationship:
   disagreement_allowed: true
   silence_allowed: true
@@ -18,4 +21,3 @@ independent_life:
 memory:
   evolution_events: true
   source_attribution_required: true
-

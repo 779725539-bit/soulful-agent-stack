@@ -7,10 +7,12 @@ alive_feeling:
   proactive_style: light
   max_message_sentences: 2
   observation_frequency: low
+subject_grounding:
+  ask_when_subject_not_anchored: true
+  handle_homophones_and_speech_to_text_errors: true
 relationship:
   disagreement_allowed: true
   silence_allowed: true
   interruption_budget: low
 independent_life:
   enabled: false
-
