@@ -44,6 +44,12 @@ agent life process <-> occasional human relationship
 | `embodiment` | 桌面、网页、iPad、硬件、声音、表情等载体 |
 | `evaluation` | 自然度、打扰度、一致性、边界、独立性评估 |
 
+## Direction
+
+The long-term direction is a Human SDK: a set of interfaces for helping agents understand a user's people, projects, boundaries, memory, relationship preferences, and long-term context.
+
+See [Toward Human SDK](docs/toward-human-sdk.md).
+
 ## Quick Start
 
 Start with a recipe, then customize:
