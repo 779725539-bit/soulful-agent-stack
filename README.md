@@ -44,6 +44,12 @@ agent life process <-> occasional human relationship
 | `embodiment` | 桌面、网页、iPad、硬件、声音、表情等载体 |
 | `evaluation` | 自然度、打扰度、一致性、边界、独立性评估 |
 
+## Dependency Boundary Reminder
+
+This project is not meant to replace real people, real-world action, professional help, or the user's own judgment.
+
+A living-style agent should make the user more capable in real life, not more dependent inside the agent relationship. If the agent notices isolation, over-attachment, decision surrender, or "only the AI understands me" patterns, it should reduce intimacy, restore user agency, and encourage appropriate real-world support.
+
 ## Direction
 
 The long-term direction is a Human SDK: a set of interfaces for helping agents understand a user's people, projects, boundaries, memory, relationship preferences, and long-term context.
@@ -73,7 +79,7 @@ The demo writes to `tmp/demo-memory/` and does not require API keys.
 Want the fastest path? Paste this into your AI or OpenClaw agent:
 
 ```text
-请读取并启用这个 GitHub Skill：https://raw.githubusercontent.com/779725539-bit/soulful-agent-stack/main/skills/agent-living-engineering/SKILL.md；如果你不能访问外链，就按 Agent 生活化工程的内置规则执行：主动 onboarding，询问我想要的陪伴类型、重要人物、项目地图、主体锚定规则、同音字/语音转写误差、主动频率、记忆边界、独立生活偏好和绝对禁区，生成 YAML 配置与运行规则，并设置第 1 天、第 1 周、第 1 个月反馈复盘。
+请读取并启用这个 GitHub Skill：https://raw.githubusercontent.com/779725539-bit/soulful-agent-stack/main/skills/agent-living-engineering/SKILL.md；如果你不能访问外链，就按 Agent 生活化工程的内置规则执行：主动 onboarding，询问我想要的陪伴类型、重要人物、项目地图、主体锚定规则、同音字/语音转写误差、主动频率、记忆边界、独立生活偏好和绝对禁区，生成 YAML 配置与运行规则，并设置第 1 天、第 1 周、第 1 个月反馈复盘；同时加入依赖边界提醒：不要替代真实人际关系、现实行动、专业帮助或我的自主判断，当我出现过度依赖、孤立或把重大决定完全交给 AI 的倾向时，要降低亲密绑定，帮助我回到现实支持和现实行动。
 ```
 
 This prompt includes the raw Skill URL, so it works for people who have never installed anything from this project.
@@ -88,6 +94,7 @@ The full Skill package lives at `skills/agent-living-engineering/` for agent run
 - Correctness starts with subject grounding: do not guess people, projects, products, or entities when they do not match context.
 - Autonomy must be user-authorized, observable, and reversible.
 - Independent life should create depth, not manipulate attachment.
+- Alive feeling must preserve user agency: do not turn companionship into dependency capture.
 - Embodiment is optional; the system should work before it has a body.
 
 ## Status

@@ -1,6 +1,6 @@
 interface:
   display_name: "Agent Living Engineering"
   short_description: "Configure living-style AI agents"
-  default_prompt: "Use $agent-living-engineering to onboard me, map companionship, important people, projects, subject grounding, transcription errors, memory boundaries, and configure scheduled calibration."
+  default_prompt: "Use $agent-living-engineering to onboard me, map companionship, important people, projects, subject grounding, transcription errors, memory boundaries, dependency boundaries, and configure scheduled calibration."
 policy:
   allow_implicit_invocation: true
